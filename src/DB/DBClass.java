@@ -10,7 +10,7 @@ public class DBClass {
 	public DBClass() {
 		try {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
-			conn =DriverManager.getConnection("jdbc:oracle:thin:@210.221.253.215:1521:xe","team03","333");
+			conn =DriverManager.getConnection("jdbc:oracle:thin:@210.221.253.215:1521:xe","team03","3333");
 		}catch(Exception e){
 			e.printStackTrace();
 		}
