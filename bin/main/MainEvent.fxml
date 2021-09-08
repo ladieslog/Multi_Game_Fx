@@ -21,7 +21,7 @@
       <Button fx:id="btn2" layoutX="220.0" layoutY="88.0" mnemonicParsing="false" text="코드2" />
       <Button fx:id="btn3" layoutX="97.0" layoutY="139.0" mnemonicParsing="false" text="코드3" />
       <Button fx:id="btn4" layoutX="220.0" layoutY="139.0" mnemonicParsing="false" text="코드4" />
-      <Button fx:id="btn5" layoutX="97.0" layoutY="194.0" mnemonicParsing="false" text="코드5" />
+      <Button fx:id="btn5" layoutX="97.0" layoutY="194.0" mnemonicParsing="false" onAction="#Playball" text="코드5" />
       <Button fx:id="btnlog" layoutX="176.0" layoutY="226.0" mnemonicParsing="false" text="게임나가기" />
    </children>
 </AnchorPane>
