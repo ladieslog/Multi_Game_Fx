@@ -12,7 +12,7 @@ public class MainRandomNumber {
 	
 	private void randomNumberScene() {
 		try {
-			FXMLLoader loader = new FXMLLoader(getClass().getResource("randomNumber.ControllerRandomNumber"));
+			FXMLLoader loader = new FXMLLoader(getClass().getResource("EventRandomNumber.fxml"));
 			Parent randomRoot = loader.load();
 			
 			ControllerRandomNumber cr = new ControllerRandomNumber();

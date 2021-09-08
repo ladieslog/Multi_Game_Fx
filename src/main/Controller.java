@@ -24,6 +24,6 @@ public class Controller implements Initializable{
  
  	// 김준호 코드 연결
  	public void randomNumberGame() {
- 		System.out.println("??");
+ 		mrn.randomNumberGameStart();
  	}
 }
