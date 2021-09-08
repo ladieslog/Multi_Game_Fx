@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: skyblue;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.Controller">
+   <children>
+      <Label layoutX="103.0" layoutY="26.0" text="3조 팀과제" textFill="#206525">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="39.0" layoutY="92.0" text="김성윤" />
+      <Label layoutX="168.0" layoutY="92.0" text="김준호" />
+      <Label layoutX="39.0" layoutY="143.0" text="김진성" />
+      <Label layoutX="168.0" layoutY="143.0" text="송지현" />
+      <Label layoutX="39.0" layoutY="198.0" text="신윤수" />
+      <Button fx:id="btn1" layoutX="97.0" layoutY="88.0" mnemonicParsing="false" text="코드1" />
+      <Button fx:id="btn2" layoutX="220.0" layoutY="88.0" mnemonicParsing="false" text="코드2" />
+      <Button fx:id="btn3" layoutX="97.0" layoutY="139.0" mnemonicParsing="false" text="코드3" />
+      <Button fx:id="btn4" layoutX="220.0" layoutY="139.0" mnemonicParsing="false" text="코드4" />
+      <Button fx:id="btn5" layoutX="97.0" layoutY="194.0" mnemonicParsing="false" text="코드5" />
+      <Button fx:id="btnlog" layoutX="176.0" layoutY="226.0" mnemonicParsing="false" text="게임나가기" />
+   </children>
+</AnchorPane>

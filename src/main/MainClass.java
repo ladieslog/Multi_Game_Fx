@@ -1,7 +1,6 @@
 package main;
 
 import java.io.IOException;
-
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -17,8 +16,14 @@ public class MainClass extends Application {
 	@Override
 	public void start(Stage primaryStage) throws IOException {
 		// TODO Auto-generated method stub
-		Parent root=FXMLLoader.load(getClass().getResource("eventTest.fxml"));
-		Scene scene=new Scene(root);
+		FXMLLoader loader = 
+				new FXMLLoader(getClass().getResource("MainEvent.fxml"));
+
+		Parent root = loader.load();
+		Scene scene = new Scene(root);
+
+		Controller ctl = loader.getController();
+		ctl.setRoot(root);
 		
 		primaryStage.setScene(scene);
 		primaryStage.show();		
