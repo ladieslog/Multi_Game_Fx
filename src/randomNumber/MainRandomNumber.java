@@ -16,10 +16,13 @@ public class MainRandomNumber {
 			Parent randomRoot = loader.load();
 			
 			ControllerRandomNumber cr = new ControllerRandomNumber();
+			cr.setRoot(randomRoot);
 			
 			Stage stage = new Stage();
 			stage.setScene(new Scene(randomRoot));
 			
+			stage.setResizable(false);
+		
 			stage.show();
 		} catch(Exception e) {
 			e.printStackTrace();
