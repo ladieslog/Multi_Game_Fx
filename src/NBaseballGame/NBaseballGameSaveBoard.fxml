@@ -7,7 +7,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="NBaseballGame.GameStart">
+<AnchorPane prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="NBaseballGame.NBaseballGameStart">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffa1fa" height="300.0" stroke="BLACK" strokeType="INSIDE" width="400.0" />
       <TextField fx:id="feeling" alignment="CENTER" layoutX="117.0" layoutY="179.0" prefHeight="47.0" prefWidth="259.0">

@@ -4,12 +4,11 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane prefHeight="316.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/16" fx:controller="NBaseballGame.GameStart">
+<AnchorPane prefHeight="316.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="NBaseballGame.NBaseballGameStart">
    <children>
       <ImageView fitHeight="316.0" fitWidth="600.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@InfoGame.png" />
+            <Image url="@NBaseballGameInfo.png" />
          </image>
       </ImageView>
    </children>

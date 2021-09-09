@@ -17,7 +17,7 @@ import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
 
-public class GameStart implements Initializable {
+public class NBaseballGameStart implements Initializable {
 	static int cnt = 1;
 	static int[] ans = {0, 0, 0};
 	public Connection conn;
@@ -35,7 +35,7 @@ public class GameStart implements Initializable {
 					new FXMLLoader(getClass().getResource("../NBaseballGame/NBaseballGame.fxml"));
 			Parent root = loader.load();
 			Scene scene = new Scene(root);
-			GameStart ctl = loader.getController();						
+			NBaseballGameStart ctl = loader.getController();						
 			ctl.setRoot(root);
 			primaryStage.setTitle("NBaseballGame!!!");
 			primaryStage.setScene(scene);
@@ -54,10 +54,10 @@ public class GameStart implements Initializable {
 		try {
 			Stage primaryStage = new Stage();
 			FXMLLoader loader = 
-					new FXMLLoader(getClass().getResource("../NBaseballGame/InfoGame.fxml"));
+					new FXMLLoader(getClass().getResource("../NBaseballGame/NBaseballGameInfo.fxml"));
 			Parent root = loader.load();
 			Scene scene = new Scene(root);
-			GameStart ctl = loader.getController();								
+			NBaseballGameStart ctl = loader.getController();								
 			ctl.setRoot(root);
 			primaryStage.setTitle("NBaseballGame 설명");
 			primaryStage.setScene(scene);
@@ -166,10 +166,10 @@ public class GameStart implements Initializable {
 		try {
 			Stage primaryStage = new Stage();
 			FXMLLoader loader = 
-					new FXMLLoader(getClass().getResource("../NBaseballGame/SaveBoard.fxml"));
+					new FXMLLoader(getClass().getResource("../NBaseballGame/NBaseballGameSaveBoard.fxml"));
 			Parent root = loader.load();
 			Scene scene = new Scene(root);
-			GameStart ctl = loader.getController();						
+			NBaseballGameStart ctl = loader.getController();						
 			ctl.setRoot(root);
 			primaryStage.setTitle("SaveBoard");
 			primaryStage.setScene(scene);

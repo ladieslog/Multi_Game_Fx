@@ -10,7 +10,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="1200.0" prefWidth="800.0" style="-fx-background-color: #CEFBC9;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="NBaseballGame.GameStart">
+<AnchorPane prefHeight="1200.0" prefWidth="800.0" style="-fx-background-color: #CEFBC9;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="NBaseballGame.NBaseballGameStart">
    <children>
       <Label alignment="CENTER" contentDisplay="CENTER" layoutX="178.0" layoutY="19.0" prefHeight="82.0" prefWidth="444.0" text="숫 자 야 구 게 임" textAlignment="CENTER" AnchorPane.leftAnchor="178.0" AnchorPane.rightAnchor="178.0">
          <font>
