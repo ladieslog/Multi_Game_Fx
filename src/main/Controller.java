@@ -13,11 +13,12 @@ public class Controller implements Initializable{
 	public void setRoot(Parent root) {
 	 	this.root=root;
 	
-	 
  	}
+	
 	public void Playball() {	
 		playball.start();			
 	}
+	
  @Override
 	public void initialize(URL arg0, ResourceBundle arg1) {
 	// TODO Auto-generated method stub

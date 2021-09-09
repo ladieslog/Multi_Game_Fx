@@ -25,6 +25,7 @@ public class MainClass extends Application {
 		Controller ctl = loader.getController();
 		ctl.setRoot(root);
 		
+		
 		primaryStage.setScene(scene);
 		primaryStage.show();		
 	}
