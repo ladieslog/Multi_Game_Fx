@@ -2,12 +2,19 @@ package main;
 
 import java.net.URL;
 import java.util.ResourceBundle;
+
 import TheGame31.TheGameStart;
 import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import randomNumber.MainRandomNumber;
 import javafx.stage.Stage;
 import NBaseballGame.NBaseballGameStart;
+
+import RockPaperGame.RockMain;
+import javafx.fxml.Initializable;
+import javafx.scene.Parent;
+import javafx.stage.Stage;
+
 
 //import Lottery.Start;
 //import RockPaperGame.RockMain;
@@ -20,9 +27,11 @@ public class Controller implements Initializable{
 	//Start start;
 	
 	Parent root;
+	RockMain ro;
 	public void setRoot(Parent root) {
 	 	this.root=root;	 
  	}
+
 
  @Override
 	public void initialize(URL arg0, ResourceBundle arg1) {
@@ -41,6 +50,12 @@ public class Controller implements Initializable{
  	
  	public void Playball() {	
 		playball.start();			
+ 	}
+	
+	public void rockPaper() {
+		ro.rockPaper();
+		Stage primaryStage = (Stage)root.getScene().getWindow();
+		primaryStage.close();
 	}
  	
  	public void randomNumberGame() {
