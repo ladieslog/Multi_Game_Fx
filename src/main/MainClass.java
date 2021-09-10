@@ -1,6 +1,7 @@
 package main;
 
 import java.io.IOException;
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -11,7 +12,6 @@ public class MainClass extends Application {
 	public static void main(String[] args) {
 		launch(args);
 	}
-
 	
 	@Override
 	public void start(Stage primaryStage) throws IOException {
@@ -24,6 +24,7 @@ public class MainClass extends Application {
 
 		Controller ctl = loader.getController();
 		ctl.setRoot(root);
+		
 		
 		primaryStage.setScene(scene);
 		primaryStage.show();		
