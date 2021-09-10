@@ -23,7 +23,7 @@ public class Start implements Initializable {
 	
 	public void setRoot(Parent root) {
 		this.root = root;
-	}
+	} 
 	
 	private static String sql1, sql2, sql3, sql4, sql5, sql6, sql7;
 	
