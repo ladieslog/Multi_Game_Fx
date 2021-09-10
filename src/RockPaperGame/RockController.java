@@ -45,62 +45,34 @@ public class RockController implements Initializable{
 		System.out.println();
 		int play = Integer.parseInt(choice.getText()); // 문자열 -> 숫자로
 		int computer = Integer.parseInt(a);
-		
+		String msg = null;
 		if(play == 0) {
-			Alert alert = new Alert(AlertType.INFORMATION);
 			if(computer == 1) {
-				alert.setTitle("");				
-				alert.setHeaderText("=== 경기결과 ===");	
-				alert.setContentText("Player 패배");
-				alert.show();
+				msg = "Player 패배";
 			}else if(computer == 2){
-				alert.setTitle("");				
-				alert.setHeaderText("=== 경기결과 ===");	
-				alert.setContentText("Player 승리");
-				alert.show();
+				msg = "Player 승리";
 			}else if(computer == 0) {
-				alert.setTitle("");				
-				alert.setHeaderText("=== 경기결과 ===");	
-				alert.setContentText("=== 무승부 ===");
-				alert.show();
+				msg = "=== 무승부 ===";
 			}
 		}else if(play == 1) {
 			Alert alert = new Alert(AlertType.INFORMATION);
 			if(computer == 2) {
-				alert.setTitle("");				
-				alert.setHeaderText("=== 경기결과 ===");	
-				alert.setContentText("Player 패배");
-				alert.show();
+				msg = "Player 패배";
 			}else if(computer == 0){
-				alert.setTitle("");				
-				alert.setHeaderText("=== 경기결과 ===");	
-				alert.setContentText("Player 승리");
-				alert.show();
+				msg = "Player 승리";
 			}else if(computer == 1) {
-				alert.setTitle("");				
-				alert.setHeaderText("=== 경기결과 ===");	
-				alert.setContentText("=== 무승부 ===");
-				alert.show();
+				msg = "=== 무승부 ===";
 			}
 		}else if(play == 2) {
 			Alert alert = new Alert(AlertType.INFORMATION);
 			if(computer == 0) {
-				alert.setTitle("");				
-				alert.setHeaderText("=== 경기결과 ===");	
-				alert.setContentText("Player 패배");
-				alert.show();
+				msg = "Player 패배";
 			}else if(computer == 1){
-				alert.setTitle("");				
-				alert.setHeaderText("=== 경기결과 ===");	
-				alert.setContentText("Player 승리");
-				alert.show();
+				msg = "Player 승리";
 			}else if(computer == 2) {
-				alert.setTitle("");				
-				alert.setHeaderText("=== 경기결과 ===");	
-				alert.setContentText("=== 무승부 ===");
-				alert.show();
+				msg = "=== 무승부 ===";
 			}
-		}
+		}alert.alert(msg);
 		}
 			
 	
