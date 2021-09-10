@@ -17,7 +17,6 @@ import javafx.stage.Stage;
 
 
 //import Lottery.Start;
-//import RockPaperGame.RockMain;
 import randomNumber.MainRandomNumber;
  	
 public class Controller implements Initializable{
@@ -37,6 +36,7 @@ public class Controller implements Initializable{
 	public void initialize(URL arg0, ResourceBundle arg1) {
 	// TODO Auto-generated method stub
 	 	playball = new NBaseballGameStart();
+	 	ro = new RockMain();
 	}
  
  	public void Exit() {
@@ -66,7 +66,6 @@ public class Controller implements Initializable{
  	public void loterrystart() {
 		start.lotteryGame();
 	}
- 
-}
+
 	*/
 }

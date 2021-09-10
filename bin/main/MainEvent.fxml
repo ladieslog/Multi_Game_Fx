@@ -17,16 +17,11 @@
       <Label layoutX="39.0" layoutY="143.0" text="김진성" />
       <Label layoutX="168.0" layoutY="143.0" text="송지현" />
       <Label layoutX="39.0" layoutY="198.0" text="신윤수" />
-<<<<<<< HEAD
+
       
       <Button fx:id="btn1" layoutX="97.0" layoutY="88.0" mnemonicParsing="false" onAction="#TheGame31" text="코드1" />
       <Button fx:id="btn2" layoutX="220.0" layoutY="88.0" mnemonicParsing="false" onAction="#randomNumberGame" text="코드2" />
-      <Button fx:id="btn3" layoutX="97.0" layoutY="139.0" mnemonicParsing="false" text="코드3" />
-=======
-      <Button fx:id="btn1" layoutX="97.0" layoutY="88.0" mnemonicParsing="false" text="코드1" />
-      <Button fx:id="btn2" layoutX="220.0" layoutY="88.0" mnemonicParsing="false" text="코드2" />
       <Button fx:id="btn3" layoutX="97.0" layoutY="139.0" mnemonicParsing="false" onAction="#rockPaper" text="코드3" />
->>>>>>> jinsung
       <Button fx:id="btn4" layoutX="220.0" layoutY="139.0" mnemonicParsing="false" text="코드4" />
       <Button fx:id="btn5" layoutX="97.0" layoutY="194.0" mnemonicParsing="false" onAction="#Playball" text="코드5" />
       <Button fx:id="btnlog" layoutX="176.0" layoutY="226.0" mnemonicParsing="false" onAction="#Exit" text="게임나가기" />
